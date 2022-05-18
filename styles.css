@@ -78,7 +78,17 @@ body {
   }
 };
 
-@media (max-width: 500px) {
+@media (max-height: 600px) {
+  body {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 700px) {
+
+  body {
+    font-size: 16px;
+  }
 
   .advice-card {
     min-width: 295px;
@@ -91,11 +101,5 @@ body {
   .pattern-div-mobile {
     display: block;
     margin: 0 auto;
-  }
-}
-
-@media (max-height: 600px) {
-  body {
-    padding: 50px 0;
   }
 }
